@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NIPTune X — Prenatal Screening for Baby + Mother</title>
+<meta name="description" content="The world's first NIPT test that screens both baby and mother from a single blood draw. Chromosome conditions, maternal predispositions, and micronutrient insights — as early as 8 weeks." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html" aria-label="NIPTune X home">
+      <span class="brand__mark" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.5-7 11-7 11"/></svg>
+      </span>
+      NIPTune <span style="color:var(--c-accent)">X</span>
+    </a>
+    <button class="nav__toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav__links" id="primary-nav">
+      <a href="index.html" class="is-active">Overview</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="report.html">The report</a>
+      <a href="for-professionals.html">For professionals</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html" class="btn btn--primary" style="padding:10px 18px">Request a kit</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <span class="eyebrow">World's first dual-insight NIPT</span>
+      <h1>One blood draw.<br/>Answers for baby <span class="accent">and</span> mother.</h1>
+      <p class="lede">NIPTune X combines non-invasive prenatal screening with maternal genetic insights and micronutrient guidance — giving clinicians a complete picture from a single sample, as early as <strong>8 weeks</strong> of pregnancy.</p>
+      <div class="hero__cta">
+        <a href="for-professionals.html" class="btn btn--primary">For clinicians
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="how-it-works.html" class="btn btn--ghost">How the test works</a>
+      </div>
+      <div class="hero__meta">
+        <div><strong>8 wks</strong>Earliest screening window</div>
+        <div><strong>3-in-1</strong>Baby · Mother · Nutrition</div>
+        <div><strong>1 tube</strong>Single maternal blood draw</div>
+      </div>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <div class="blob"></div>
+
+      <!-- Centered illustration: stylised mother + DNA -->
+      <svg viewBox="0 0 400 400" style="position:absolute; inset:30px 40px; width:auto; height:auto;">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="#2BC4D2"/>
+            <stop offset="1" stop-color="#E91E8C"/>
+          </linearGradient>
+        </defs>
+        <!-- DNA helix -->
+        <g stroke="url(#g1)" stroke-width="2.5" fill="none" opacity=".55">
+          <path d="M120 80 C 200 130, 200 170, 280 220" />
+          <path d="M120 130 C 200 180, 200 220, 280 270" />
+          <path d="M120 180 C 200 230, 200 270, 280 320" />
+          <line x1="135" y1="95" x2="265" y2="225"/>
+          <line x1="135" y1="145" x2="265" y2="275"/>
+          <line x1="135" y1="195" x2="265" y2="325"/>
+        </g>
+        <!-- Heart shield -->
+        <g transform="translate(200 200)">
+          <circle r="64" fill="#fff" opacity=".9"/>
+          <path d="M0 22 c-22 -16 -36 -28 -36 -44 a18 18 0 0 1 36 -8 a18 18 0 0 1 36 8 c0 16 -14 28 -36 44 z" fill="#C84B31"/>
+        </g>
+      </svg>
+
+      <div class="card card--baby">
+        <div class="card__dot">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="9" r="4"/><path d="M6 21c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>
+        </div>
+        <div><strong style="display:block;color:var(--c-brand-2)">Baby</strong>Trisomy 21, 18, 13 + sex</div>
+      </div>
+      <div class="card card--mom">
+        <div class="card__dot">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-7-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.5-7 11-7 11"/></svg>
+        </div>
+        <div><strong style="display:block;color:var(--c-brand-2)">Mother</strong>Preeclampsia · GDM risk</div>
+      </div>
+      <div class="card card--nutri">
+        <div class="card__dot">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v6M5 8h14l-2 12H7L5 8z"/></svg>
+        </div>
+        <div><strong style="display:block;color:var(--c-brand-2)">Nutrition</strong>Iron · B-vitamins · Mg</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section>
+  <div class="wrap">
+    <div class="trust">
+      <div class="trust__item"><strong>&gt;99%</strong><span>Sensitivity for T21*</span></div>
+      <div class="trust__item"><strong>10ml</strong><span>Single blood draw</span></div>
+      <div class="trust__item"><strong>5–7</strong><span>Business-day turnaround</span></div>
+      <div class="trust__item"><strong>ISO 15189</strong><span>Accredited laboratory</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- THREE PILLARS -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What we screen</span>
+      <h2>Three perspectives, one sample</h2>
+      <p class="lede">A modern prenatal panel that goes beyond fetal aneuploidies — adding maternal risk markers and personalised micronutrient guidance to support a healthier pregnancy.</p>
+    </div>
+
+    <div class="pillars">
+      <article class="pillar pillar--baby">
+        <div class="pillar__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="9" r="4"/><path d="M6 21c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>
+        </div>
+        <span class="pillar__tag">Baby · cfDNA / NIPT</span>
+        <h3>Fetal screening</h3>
+        <p>Cell-free DNA analysis identifies the most common trisomies and reports fetal sex from a maternal blood sample.</p>
+        <ul>
+          <li>Trisomy 21 (Down syndrome)</li>
+          <li>Trisomy 18 (Edwards)</li>
+          <li>Trisomy 13 (Patau)</li>
+          <li>Fetal sex determination</li>
+          <li>Optional: Sex chromosome aneuploidies (XO, XXY, XYY, XXX)</li>
+        </ul>
+      </article>
+
+      <article class="pillar pillar--mom">
+        <div class="pillar__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-7-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.5-7 11-7 11"/></svg>
+        </div>
+        <span class="pillar__tag">Mother · Predispositions</span>
+        <h3>Maternal insights</h3>
+        <p>Genetic markers associated with common pregnancy complications — supporting earlier monitoring and proactive care.</p>
+        <ul>
+          <li>Gestational diabetes risk</li>
+          <li>Preeclampsia susceptibility</li>
+          <li>Gestational hypertension</li>
+          <li>Recurrent miscarriage markers</li>
+          <li>Thrombophilia risk variants</li>
+        </ul>
+      </article>
+
+      <article class="pillar pillar--nutri">
+        <div class="pillar__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v6M5 8h14l-2 12H7L5 8z"/></svg>
+        </div>
+        <span class="pillar__tag">Nutrition · Micronutrients</span>
+        <h3>Personalised nutrition</h3>
+        <p>Variants that influence the body's processing of key vitamins and minerals — guiding personalised supplementation.</p>
+        <ul>
+          <li>Iron metabolism &amp; absorption</li>
+          <li>Vitamin B9 (folate) &amp; B12</li>
+          <li>Vitamin C, D &amp; magnesium</li>
+          <li>Manganese requirements</li>
+          <li>Omega-3 conversion efficiency</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS (preview) -->
+<section class="section section--cream">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">The journey</span>
+      <h2>From blood draw to insights — in four steps</h2>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step__num">01</span>
+        <h4>Order at the clinic</h4>
+        <p>Your physician requests NIPTune X from week 8 of pregnancy onwards.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">02</span>
+        <h4>Single blood draw</h4>
+        <p>One 10 ml maternal blood sample — no fasting, no risk to the pregnancy.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">03</span>
+        <h4>Lab analysis</h4>
+        <p>Sequencing and genetic analysis in our ISO 15189-accredited laboratory.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">04</span>
+        <h4>Comprehensive report</h4>
+        <p>Clear, structured results delivered to your clinician within 5–7 business days.</p>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:48px">
+      <a href="how-it-works.html" class="btn btn--ghost">See the full process
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <span class="eyebrow">Why NIPTune X</span>
+      <h2>Designed for the realities of modern obstetric care</h2>
+      <p class="lede">A higher-resolution starting point for prenatal counselling — integrating fetal, maternal, and nutritional dimensions in one streamlined workflow.</p>
+      <ul class="feature-list">
+        <li>
+          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-11"/></svg></span>
+          <div><strong>Single workflow, three reports</strong><span>Reduces patient visits and consolidates ordering for clinics.</span></div>
+        </li>
+        <li>
+          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-11"/></svg></span>
+          <div><strong>Earlier actionable data</strong><span>Maternal risk markers available alongside first-trimester screening.</span></div>
+        </li>
+        <li>
+          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-11"/></svg></span>
+          <div><strong>Counselling-ready outputs</strong><span>Plain-language patient summary plus a structured clinician report.</span></div>
+        </li>
+        <li>
+          <span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-11"/></svg></span>
+          <div><strong>Quality-assured</strong><span>ISO 15189 accreditation, validated against gold-standard methods.</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="media-card">
+      <svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg">
+        <!-- Stylized clinician + report illustration -->
+        <rect x="60" y="40" width="280" height="280" rx="22" fill="#fff" stroke="#E5E7E5"/>
+        <rect x="84" y="74" width="160" height="14" rx="4" fill="#1E5F74"/>
+        <rect x="84" y="98" width="220" height="8" rx="4" fill="#DCEBEF"/>
+        <rect x="84" y="116" width="180" height="8" rx="4" fill="#DCEBEF"/>
+
+        <rect x="84" y="146" width="232" height="48" rx="10" fill="#FBE8DA"/>
+        <rect x="98" y="160" width="80" height="8" rx="4" fill="#C84B31"/>
+        <rect x="98" y="176" width="140" height="6" rx="3" fill="#A23A22" opacity=".6"/>
+
+        <rect x="84" y="202" width="232" height="48" rx="10" fill="#E2EDE6"/>
+        <rect x="98" y="216" width="80" height="8" rx="4" fill="#2E5D4A"/>
+        <rect x="98" y="232" width="140" height="6" rx="3" fill="#2E5D4A" opacity=".55"/>
+
+        <rect x="84" y="258" width="232" height="48" rx="10" fill="#E5EEF8"/>
+        <rect x="98" y="272" width="80" height="8" rx="4" fill="#1E5F74"/>
+        <rect x="98" y="288" width="140" height="6" rx="3" fill="#1E5F74" opacity=".5"/>
+
+        <!-- Stethoscope -->
+        <g stroke="#133E54" stroke-width="6" fill="none" stroke-linecap="round">
+          <path d="M340 160 q 30 30 0 60 q -30 30 -60 0"/>
+          <circle cx="280" cy="220" r="14" fill="#1E5F74" stroke="#133E54"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIENCE SPLIT -->
+<section class="section section--white">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Who it's for</span>
+      <h2>Two paths, one platform</h2>
+      <p class="lede">Whether you're an expecting parent learning about screening, or a clinician integrating NIPT into routine care — start where you are.</p>
+    </div>
+
+    <div class="audience">
+      <div class="audience__card">
+        <div class="audience__icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="9" r="4"/><path d="M6 21c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>
+        </div>
+        <h3>For expecting parents</h3>
+        <p>Plain-language explanations of what's screened, what your results mean, and the questions to bring to your next antenatal visit.</p>
+        <a href="report.html" class="btn btn--light" style="margin-top:24px">Explore the report</a>
+      </div>
+
+      <div class="audience__card dark">
+        <div class="audience__icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14V8l-7-5-7 5v6c0 5 7 8 7 8s7-3 7-8z"/></svg>
+        </div>
+        <h3>For physicians &amp; clinics</h3>
+        <p>Clinical specifications, validation summaries, sample logistics, and reporting examples to support evidence-based ordering and patient counselling.</p>
+        <a href="for-professionals.html" class="btn btn--primary" style="margin-top:24px">Clinician centre
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="section--tight">
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2>Bring NIPTune X to your practice</h2>
+        <p>Become a partner clinic and offer your patients an integrated prenatal screening experience built around modern genomic medicine.</p>
+      </div>
+      <a href="contact.html" class="btn btn--primary">Partner with us
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="wrap" style="padding:0; margin-top:24px">
+      <p class="disclaimer"><strong>Important.</strong> NIPTune X provides screening — it estimates risk and is not a diagnostic test. Results do not replace ultrasound, clinical evaluation, or, where indicated, confirmatory invasive testing. *Performance figures based on internal validation; full data available to clinicians on request.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <a class="brand" href="index.html" style="margin-bottom:14px">
+          <span class="brand__mark" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.5-7 11-7 11"/></svg>
+          </span>
+          NIPTune <span style="color:var(--c-accent)">X</span>
+        </a>
+        <p style="color:var(--c-ink-soft); font-size:.92rem; max-width:36ch">The world's first NIPT panel that puts both baby and mother at the centre — backed by accredited laboratory science.</p>
+      </div>
+      <div class="footer__col">
+        <h5>Product</h5>
+        <a href="how-it-works.html">How it works</a>
+        <a href="report.html">The report</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="footer__col">
+        <h5>For clinicians</h5>
+        <a href="for-professionals.html">Clinical overview</a>
+        <a href="for-professionals.html#specs">Specifications</a>
+        <a href="contact.html">Become a partner</a>
+      </div>
+      <div class="footer__col">
+        <h5>Contact</h5>
+        <a href="mailto:hello@niptunex.com">hello@niptunex.com</a>
+        <a href="contact.html">Request a kit</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="yr">2026</span> NIPTune X. All rights reserved.</span>
+      <span>Screening test · Not a diagnostic test.</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
